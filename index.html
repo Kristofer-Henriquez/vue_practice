@@ -11,7 +11,9 @@
     <div id="app">
       {{ message }}
       <p>{{ yolo }}</p>
+      <p>{{ name }}</p>
       <button v-on:click="ChangeMessage()">"click here!"</button>
+      <p>Type your name here <input type="text" v-model="name"></p>
     </div>
   </body>
 </html>

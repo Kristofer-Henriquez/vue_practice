@@ -3,6 +3,7 @@ var app = new Vue({
   data: {
     message: "Hello from JavaScript!",
     yolo: "yolo",
+    name: "Kris",
   },
   methods: {
     ChangeMessage: function() {

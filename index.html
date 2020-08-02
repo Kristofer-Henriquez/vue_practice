@@ -17,6 +17,17 @@
 
       <button v-on:click="ToggleInfo()">Toggle!</button>
       <p v-if="ShowInfo">I will hide this!</p>
+
+      <p><input type="text" v-model="newFruit"></p>
+    <p><button v-on:click="addFruit()">Add a new fruit</button></p>
+    
+    <!-- fruits.each do |fruit| -->
+    <div v-for="fruit in fruits">
+      A good fruit is: {{ fruit }}
+    </div>
+
+    <p> {{ fruits }} </p>
+
     </div>
   </body>
 </html>
